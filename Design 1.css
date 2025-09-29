@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../IMAGES/backgr.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgray;
+    filter: brightness(85%);
+}
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+header .list {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 46, 46);
+}
+
+header .list nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header .list nav ul li {
+    margin: 25px;
+}
+header .list nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+main h1 {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+main .hero {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .hero .mainlist ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .hero .mainlist ul li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+main .hero .mainlist ul .allcat {
+    background-color: rgb(22, 21, 21);
+    padding: 7px 22px 7px 15px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+main .hero .mainlist ul .search input{
+    border-style: none;
+    background-color: white;
+    padding: 7px 130px 7px 20px;
+    font-size: 14px;
+    color: black;
+}
+
+main .hero .mainlist ul .lang {
+    border-style: none;
+    background-color: white;
+    padding: 7px 20px;
+    color: black;
+    border-radius: 5px;
+}
+
+main .hero .mainlist ul li {
+    color: white;
+}
+
+main .mid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(105, 104, 104);
+    opacity: 0.5;
+}
+main .start {
+    text-align: center;
+}
+main .start p {
+    color: white;
+    font-size: 35px;
+    margin: 30px 0;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+main .start button {
+    padding: 10px 20px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+main .content {
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+    background-color: white;
+    background: linear-gradient(to right, rgb(47, 148, 47),rgb(211, 211, 95), rgb(70, 70, 117));
+    /* background: linear-gradient(to bottom, rgb(219, 221, 219),rgb(158, 158, 156)); */
+}
+main .content h1 {
+    color: black;
+}
+main .content .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+main .content .cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .content .cover div {
+    width: 350px;
+    height: 250px;
+    margin-right: 25px;
+    padding-top: 15px;
+    box-shadow: 5px 5px 6px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+main .content .cover div h3 p {
+    font-size: 15px;
+    color: red;
+}
