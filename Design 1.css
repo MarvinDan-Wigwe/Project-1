@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background-image: url('../IMAGES/backgr.jpg');
+    background-image: url('./backgr.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
